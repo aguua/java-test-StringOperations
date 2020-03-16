@@ -9,5 +9,10 @@ script:
   - ./gradlew build
   - ./gradlew build jacocoTestReport
 
+env:
+  global:
+    - CODECOV_TOKEN="4d9bb722-ffea-45dd-a2b1-52191872a396"
+
+
 after_success:
   - bash <(curl -s https://codecov.io/bash)
