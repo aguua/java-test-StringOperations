@@ -32,11 +32,12 @@ dependencies {
 
     // Use JUnit Jupiter Engine for testing.
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.2'
+
 }
 
 application {
     // Define the main class for the application.
-    mainClassName = 'StringOperation.App'
+    mainClassName = 'StringOperation.StringOperations'
 }
 
 test {
